@@ -19,3 +19,4 @@
 	<%= "<generes>" + generes + "</generes>"%>
 	<%= "<contrasenya>" + contrasenya1 + "</contrasenya>"%>
 	<%= "</persona>" %>
+
