@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="application/xml; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+	<% String nom = request.getParameter("nom"); %>
+	<% String cognom = request.getParameter("cognom"); %>
+	<% String email = request.getParameter("email"); %>
+	<% String dataNaixement = request.getParameter("dataNaixement"); %>
+	<% String sexe = request.getParameter("sexe"); %>
+	<% String tipus = request.getParameter("tipus"); %>
+	<% String generes = request.getParameter("generes"); %>
+	<% String contrasenya1 = request.getParameter("contrasenya1"); %>
+	<% String contrasenya2 = request.getParameter("contrasenya2"); %>
+	<%= "<persona>" %>
+	<%= "<nom>" + nom + "</nom>" %>
+	<%= "<cognom>" + cognom + "</cognom>"%>
+	<%= "<email>" + email + "</email>" %>
+	<%= "<dataNaixemet>" + dataNaixement + "</dataNaixemet>"%>
+	<%= "<sexe>" + sexe + "</sexe>"%>
+	<%= "<tipus>" + tipus + "</tipus>"%>
+	<%= "<generes>" + generes + "</generes>"%>
+	<%= "<contrasenya>" + contrasenya1 + "</contrasenya>"%>
+	<%= "</persona>" %>
